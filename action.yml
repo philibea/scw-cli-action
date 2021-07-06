@@ -1,0 +1,9 @@
+name: 'Scaleway CLI Action'
+description: 'Use Scaleway CLI to manage your Scaleway resources.'
+author: 'Alexandre Philibeaux'
+branding:
+  icon: 'server'
+  color: 'purple'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
