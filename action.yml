@@ -1,0 +1,9 @@
+name: 'Scaleway scw CLI'
+description: 'Use scw CLI to manage your Scaleway resources.'
+author: 'Alexandre Philibeaux'
+branding:
+  icon: 'server'
+  color: 'purple'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
